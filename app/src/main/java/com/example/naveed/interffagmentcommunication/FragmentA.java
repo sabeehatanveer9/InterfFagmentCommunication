@@ -43,6 +43,7 @@ public class FragmentA extends Fragment implements View.OnClickListener{
         button.setOnClickListener(this);
     }
 
+    
     @Override
     public void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
